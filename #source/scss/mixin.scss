@@ -1,0 +1,39 @@
+@mixin arrow () {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+
+    border-top: solid 2px #ccc;
+    border-right: solid 2px #ccc;
+}
+
+@mixin font-Roboto ($font-size: 15px, $font-weight: 300, $font-style: normal) {
+    font-family: 'Roboto', sans-serif;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    font-style: $font-style;
+
+    line-height: 1.5;
+    opacity: .8;
+}
+
+@mixin redLine {
+    content: "";
+    display: block;
+    vertical-align: middle;
+    width: 60px;
+    height: 3px;
+
+    background-color:#f38181;
+}
+
+@mixin whiteLine {
+    content: "";
+    display: block;
+    vertical-align: middle;
+    width: 60px;
+    height: 3px;
+
+    background: #ffffff;
+}
